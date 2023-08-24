@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
+# Reshape the variables as needed (assuming they are 2D arrays) dfdf
 # Step 1: Load the NetCDF Data
 data_path = "D:/data/GRACEDADM_CLSM025GL_7D.A20230327.030.nc4"
 data = nc.Dataset(data_path)
